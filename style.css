@@ -5,11 +5,6 @@ body {
     margin:0;
 }
 
-img {
-    width:200px;
-    height:auto;
-}
-
 ul {
     list-style: none;
     display:flex;
@@ -21,7 +16,7 @@ ul {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10vw;
+    padding:  0 10vw;
 }
 .header-logo{
     color:#F9FAF8;
@@ -37,13 +32,13 @@ ul {
     background-color:#1F2937;
     display:flex;
     justify-content: center;
-    padding: 32px;
+    padding: 10vw;
 }
 
 .hero-media-object{
     display:flex;
     align-self: center;
-    width: 80vw;
+    gap: 12px;
 }
 
 .hero-left {
@@ -71,4 +66,45 @@ button.sign-up {
     border-radius: 5px;
     padding: 5px 20px;
     align-self: flex-start;
+}
+
+.two {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10vw;
+}
+
+.info-title-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight:900;
+    text-align: center;
+}
+
+.info-cards-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 80%;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    max-width:100px;
+    gap: 8px;
+}
+
+.info-card > img {
+    border: solid #3882F6 2px;
+    border-radius: 10px;
+}
+
+.info-card > div {
+    font-weight: 200;
+    text-align: center;
 }
