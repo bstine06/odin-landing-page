@@ -132,3 +132,36 @@ button.sign-up {
     font-weight: 700;
     font-size: 24px;
 }
+
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert {
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+    margin: 80px;
+    padding: 40px 80px;
+    gap: 10px;
+}
+
+.alert-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.alert-text {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight:bold;
+}
+
+button.alert-button {
+    border: solid #F9FAF8 2px;
+}
