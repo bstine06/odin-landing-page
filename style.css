@@ -108,3 +108,27 @@ button.sign-up {
     font-weight: 200;
     text-align: center;
 }
+
+.three {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10vw;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    padding: 0 10vw;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.quote-author {
+    align-self: flex-end;
+    padding: 0 10vw;
+    font-weight: 700;
+    font-size: 24px;
+}
