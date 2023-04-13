@@ -21,7 +21,7 @@ ul {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5vw;
+    padding: 10vw;
 }
 .header-logo{
     color:#F9FAF8;
@@ -46,12 +46,29 @@ ul {
     width: 80vw;
 }
 
+.hero-left {
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
 .hero-media-object img {
     align-self:center;
+    flex:1;
 }
 
 .hero {
     color: #F9FAF8;
     font-size: 48px;
     font-weight:bolder;
+}
+
+button.sign-up {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 20px;
+    align-self: flex-start;
 }
