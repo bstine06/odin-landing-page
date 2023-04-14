@@ -95,7 +95,7 @@ button.sign-up {
 .info-card {
     display: flex;
     flex-direction: column;
-    max-width:100px;
+    max-width:200px;
     gap: 8px;
 }
 
@@ -147,7 +147,7 @@ button.sign-up {
     align-items: center;
     width: 60%;
     margin: 80px;
-    padding: 40px 80px;
+    padding: 50px 80px;
     gap: 10px;
 }
 
@@ -164,4 +164,13 @@ button.sign-up {
 
 button.alert-button {
     border: solid #F9FAF8 2px;
+}
+
+.footer {
+    background-color: #1F2937;
+    align-items: center;
+    padding:  0 10vw;
+    color:#E5E7EB;
+    text-align: center;
+    padding: 50px;
 }
